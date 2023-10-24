@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 162, 255),
+    rgb(97, 136, 241),
+    rgb(108, 182, 221)
+  );
+}
+.baru {
+  width: 100%;
+  background-color: rgb(7, 229, 245);
+}
+#home {
+  text-align: center;
+  padding-top: 10px;
+  color: #ddd;
+  margin-top: 2cm;
+}
+#about {
+  font-family: sans-serif;
+  margin-top: 1cm;
+  text-align: center;
+  color: #fff;
+  padding-left: 6cm;
+  padding-right: 6cm;
+}
+#contact {
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-left: 6cm;
+  padding-right: 6cm;
+  padding-top: 2cm;
+}
+#contact1 {
+  font-family: sans-serif;
+  margin-top: 1cm;
+  text-align: center;
+  color: #fff;
+  padding-left: 6cm;
+  padding-right: 6cm;
+}
+#gambar1 {
+  margin-top: 1cm;
+  padding-left: 40%;
+  width: 300px;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(103, 187, 255),
+    rgb(93, 129, 228)
+  );
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  margin-top: -2cm;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+  border-radius: 5%;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #00b7ff;
+  color: white;
+  transition-property: 1s;
+}
+.navbar #logout:hover {
+  background-color: rgb(54, 149, 204);
+  color: #fff;
+  transition: 0.5s;
+  border-radius: 50px 0px 50px 0px;
+}
+.navbar #logout {
+  margin-left: 22cm;
+}
